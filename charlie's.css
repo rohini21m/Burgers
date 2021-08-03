@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+main {
+  font-family: "Heebo", sans-serif;
+}
+.header {
+  margin: 0 30px 0 60px;
+  padding: 0 5rem;
+  display: flex;
+  align-items: baseline;
+}
+.row {
+  margin: 30px 50px;
+  display: flex;
+  align-items: center;
+}
+.right {
+  width: 100%;
+  min-width: 10vh;
+  height: 400px;
+  position: relative;
+  flex: 50%;
+}
+
+.right img {
+  height: 400px;
+  margin: 30px;
+  margin-left: 260px;
+}
+
+.left {
+  flex: 50%;
+  padding: 30px;
+  width: 550px;
+  position: relative;
+}
+.left em {
+  color: chocolate;
+  font-size: 1.7rem;
+  margin-left: -10px;
+}
+
+.right,
+.left em p {
+  color: black;
+  margin: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: "Droid Serif" !important;
+}
+
+.page-land {
+  margin: 20px 230px;
+  padding: 0 20rem 0 20rem;
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vegan-burger-2-1578931709.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 950px;
+  display: block;
+  align-content: space-between;
+  color: black;
+}
+
+.info {
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  color: black;
+  font-size: 1.5rem;
+  display: block;
+}
+.ingredients {
+  margin: 10px -1px;
+  width: 220px;
+  height: 40px;
+  font-size: 1.3rem;
+
+  font-family: "Droid Serif" !important;
+  color: black;
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: white;
+}
+.ingredients:hover {
+  background-color: black;
+  color: white;
+}
+h3 {
+  bottom: 20%;
+  left: 1%;
+  margin-left: 50px;
+  position: relative;
+  margin: 10px;
+  font-family: "Droid Serif" !important;
+  font-size: 2rem;
+}
+.menu {
+  margin: 10px 20px;
+  width: 120px;
+  height: 40px;
+  font-size: 1.3rem;
+
+  font-family: "Droid Serif" !important;
+  color: white;
+  background-color: black;
+  border-radius: 0px;
+  box-shadow: black;
+}
+.menu:hover {
+  background-color: grey;
+  color: black;
+  border-radius: 15px;
+}
+.section {
+  display: flex;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 108px 8px 2px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #8f8a8a;
+  display: block;
+  transition: 0.2s;
+  font-family: "Droid Serif" !important;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: -165px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+nav {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  min-height: 20vh;
+  color: white;
+}
+h2 {
+  margin: 0 0 0 400px;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  font-family: "Droid Serif" !important;
+}
+.list {
+  display: block;
+}
+section {
+  color: white;
+
+  text-align: center;
+}
+section h2 {
+  color: white;
+  margin: 50px;
+  margin-left: 20px;
+}
+article p {
+  color: white;
+  margin: 40px;
+  text-align: center;
+  font-family: "Droid Serif" !important ;
+  font-size: 2rem;
+}
+.menu-items {
+  display: block;
+  background-image: url(http://justfunfacts.com/wp-content/uploads/2019/05/hamburgers.jpg);
+  background-size: cover;
+  width: 1520px;
+  position: absolute;
+  min-height: 110vh;
+}
+.vegan-burgers {
+  color: white;
+  bottom: 10%;
+  font-family: "Droid Serif" !important;
+
+  font-size: 1.5rem;
+}
+li {
+  display: block;
+  margin: 20px;
+  margin-left: 70px;
+  padding: 5px;
+  font-family: "Droid Serif" !important;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+li em {
+  color: yellowgreen;
+}
+.last {
+  margin: 90px;
+  text-align: center;
+}
+.location {
+  margin-top: 1000px;
+  display: block;
+  height: 700px;
+  margin-left: 500px;
+  font-size: 1.3rem;
+}
+.location section h1 {
+  font-family: "Droid Serif" !important;
+  font-size: 2rem;
+  width: 400px;
+  display: block;
+  color: black;
+  margin: 20px;
+  justify-content: center;
+}
+.timing {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: 30px;
+}
+.one,
+.two em {
+  width: 500px;
+  font-size: 1.5rem;
+  font-family: "Droid Serif" !important;
+  margin: 0px -70px;
+  display: block;
+  color: chocolate;
+}
+.timing em {
+  margin-left: 20px;
+}
+
+.one h3,
+.two h3 {
+  font-size: 1.5rem;
+  width: 500px;
+  color: red;
+  margin: 20px;
+}
+.address em p {
+  display: block;
+  margin: 40px -200px;
+  width: 400px;
+  color: chocolate;
+  font-family: "Droid Serif" !important;
+  font-size: 1.3rem;
+}
+.address em {
+  margin-top: 20px;
+}
+
+.map-responsive {
+  padding: 9%;
+
+  position: relative;
+
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 30%;
+  bottom: 10%;
+  height: 300px;
+
+  width: 600px;
+
+  position: absolute;
+}
+.footer {
+  background-color: black;
+
+  position: relative;
+  height: 70px;
+  width: 1560px;
+}
+.links a {
+  display: inline-flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Droid Serif" !important;
+  font-size: 1.3rem;
+}
+a {
+  width: 250px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 50px 0 50px;
+}
+a:hover {
+  color: chocolate;
+}
